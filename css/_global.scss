@@ -1,0 +1,75 @@
+//reset
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//fonts
+@font-face
+{
+    font-family: Avenir-Heavy;
+    src: url(/Assets/Fonts/Metropolis-SemiBold.otf);
+}
+
+@font-face
+{
+    font-family: Avenir-Roman;
+    src: url(/Assets/Fonts/Metropolis-Regular.otf);
+}
+
+//colors
+$gray: #575756;
+
+//transitions
+$fast-in-out: all .3s ease-in-out;
+$slow-in-out: all .5s ease-in-out;
+
+html
+{
+    body
+    {
+        main
+        {
+            h1
+            {
+                font-family: Avenir-Heavy;
+                color: $gray;
+                font-size: 2.5rem;
+                margin-bottom: 1.9rem;
+                line-height: 2.875rem;
+            }
+
+            p
+            {
+                font-family: Avenir-Roman;
+                color: $gray;
+                margin-bottom: 1.9rem;
+                line-height: 1.5rem;
+            }
+
+            a
+            {
+                font-family: Avenir-Heavy;
+                color: $gray;
+                text-decoration: none;
+
+                svg
+                {
+                    margin-left: 2rem;
+                }
+            }
+
+            .icon
+            {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+//media-queries
+$phone: "(max-width: 640px)";

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229.48" height="229.48" viewBox="0 0 229.48 229.48">
+  <g id="Gruppe_262" data-name="Gruppe 262" transform="translate(-605 -1904.015)">
+    <g id="Rechteck_38" data-name="Rechteck 38" transform="translate(615 1914.015)" fill="#7d3886" stroke="#fff" stroke-width="10">
+      <rect width="209.48" height="209.48" stroke="none"/>
+      <rect x="-5" y="-5" width="219.48" height="219.48" fill="none"/>
+    </g>
+    <g id="Gruppe_227" data-name="Gruppe 227" transform="translate(0 -564.007)">
+      <path id="Pfad_179" data-name="Pfad 179" d="M1162,141.188V97.675s-.155-8.724-11.187-11.681c-11.077-2.969-10.361-4.3-12.376-7.411l-1.8-4.135" transform="translate(-412.755 2447.248)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Pfad_180" data-name="Pfad 180" d="M1111.24,141.188V97.675s.155-8.724,11.187-11.681c11.077-2.969,10.361-4.3,12.374-7.411l1.8-4.135" transform="translate(-426.692 2447.248)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linie_63" data-name="Linie 63" y2="36.51" transform="translate(696.007 2551.928)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linie_64" data-name="Linie 64" y1="36.51" transform="translate(737.79 2551.928)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <line id="Linie_65" data-name="Linie 65" y1="34.41" transform="translate(716.917 2554.027)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Pfad_181" data-name="Pfad 181" d="M1142.357,89.108h0c-10.671,0-10.214,10-10.214,10" transform="translate(-415.227 2455.289)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Pfad_182" data-name="Pfad 182" d="M1125.547,89.108h0c10.671,0,10.213,10,10.213,10" transform="translate(-418.844 2455.289)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Pfad_183" data-name="Pfad 183" d="M1132.463,102.388a5.108,5.108,0,1,1-5.107-5.109A5.107,5.107,0,0,1,1132.463,102.388Z" transform="translate(-420.654 2459.771)" fill="#fff"/>
+      <path id="Pfad_184" data-name="Pfad 184" d="M1125.547,100.578h0c10.671,0,10.213,10,10.213,10" transform="translate(-418.844 2461.581)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Pfad_185" data-name="Pfad 185" d="M1132.463,90.918a5.108,5.108,0,1,1-5.107-5.109A5.107,5.107,0,0,1,1132.463,90.918Z" transform="translate(-420.654 2453.479)" fill="#fff"/>
+      <path id="Pfad_186" data-name="Pfad 186" d="M1145.656,90.918a5.108,5.108,0,1,1-5.107-5.109A5.107,5.107,0,0,1,1145.656,90.918Z" transform="translate(-413.417 2453.479)" fill="#fff"/>
+    </g>
+    <text id="Elektrotherapie" transform="translate(720 2074.993)" fill="#fff" font-size="16" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-58.24" y="0">Elektrotherapie</tspan></text>
+  </g>
+</svg>

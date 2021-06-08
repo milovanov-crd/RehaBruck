@@ -1,0 +1,12 @@
+<svg id="Gruppe_200" data-name="Gruppe 200" xmlns="http://www.w3.org/2000/svg" width="17" height="22" viewBox="0 0 17 22">
+  <g id="Gruppe_201" data-name="Gruppe 201">
+    <g id="Pfad_172" data-name="Pfad 172" fill="none">
+      <path d="M0,0H13.929l1.539,1.694L17,3.313V22H0Z" stroke="none"/>
+      <path d="M 1.75 1.75 L 1.75 20.25 L 15.25 20.25 L 15.25 4.009323120117188 L 14.19700050354004 2.896709442138672 L 14.18486022949219 2.883880615234375 L 14.17298984527588 2.870819091796875 L 13.15430068969727 1.75 L 1.75 1.75 M 0 0 L 13.92856979370117 0 L 15.46801948547363 1.693790435791016 L 17 3.3125 L 17 22 L 0 22 L 0 0 Z" stroke="none" fill="#575756"/>
+    </g>
+    <g id="Gruppe_199" data-name="Gruppe 199" transform="translate(11.103 7.167) rotate(90)">
+      <line id="Linie_2" data-name="Linie 2" x2="7.248" transform="translate(0 2.551)" fill="none" stroke="#575756" stroke-linecap="round" stroke-width="1.75"/>
+      <path id="Pfad_123" data-name="Pfad 123" d="M0,0,2.551,2.551,0,5.1" transform="translate(5.115 0)" fill="none" stroke="#575756" stroke-linecap="round" stroke-width="1.75"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url(/Assets/Fonts/Metropolis-SemiBold.otf);
+}
+
+@font-face {
+  font-family: Avenir-Roman;
+  src: url(/Assets/Fonts/Metropolis-Regular.otf);
+}
+
+html body main h1 {
+  font-family: Avenir-Heavy;
+  color: #575756;
+  font-size: 2.5rem;
+  margin-bottom: 1.9rem;
+  line-height: 2.875rem;
+}
+
+html body main p {
+  font-family: Avenir-Roman;
+  color: #575756;
+  margin-bottom: 1.9rem;
+  line-height: 1.5rem;
+}
+
+html body main a {
+  font-family: Avenir-Heavy;
+  color: #575756;
+  text-decoration: none;
+}
+
+html body main a svg {
+  margin-left: 2rem;
+}
+
+html body main .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+html body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+html body main #mobile-only {
+  display: none;
+}
+
+html body main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 96%;
+  height: 93%;
+}
+
+html body main .container .side-container {
+  width: 49%;
+  overflow: hidden;
+}
+
+html body main .container .side-container .cover {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+html body main .container .side-container .cover img {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+html body main .container .side-container .left {
+  background-image: url(/Assets/Bildmaterial/conversory-reha-bruck-website-landing-frauen-knie-behandlung.jpg);
+}
+
+html body main .container .side-container .right {
+  background-image: url(/Assets/Bildmaterial/conversory-physio-bruck-website-landing-mann-schulter-behandlung.jpg);
+}
+
+html body main .container .side-container .container {
+  width: 91%;
+  margin: 35px auto 0 auto;
+}
+
+html body main .container .side-container .container .text {
+  max-width: 413px;
+}
+
+html body main .container .side-container .container .text a .arrow {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+html body main .container .side-container .container .text a .arrow:hover {
+  width: 150px;
+}
+
+html body main .container .side-container .container .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body main .container .cover-right .content-right {
+  position: relative;
+  top: -100%;
+  height: 0px;
+  margin-bottom: -2rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+html body main .container .cover-left:hover > .left {
+  background-image: url(/Assets/Bildmaterial/reha-bruck-startseite/conversory-reha-bruck-website-landing-header-frauen-knie-behandlung.jpg);
+  height: 60%;
+}
+
+html body main .container .cover-right:hover > .right {
+  background-image: url(/Assets/Bildmaterial/Physio-bruck-startseite/conversory-physio-bruck-website-landing-header-mann-schulter-therapie.jpg);
+  height: 60%;
+}
+
+html body main .container .cover-right:hover > .content-right {
+  height: 40%;
+  top: 0;
+}
+
+@media (max-width: 640px) {
+  html body main h1 {
+    font-size: 1.875rem;
+    max-width: 315px;
+    font-family: Avenir-Roman;
+    line-height: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  html body main p {
+    line-height: 1.375rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  html body main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  html body main #pc-only {
+    display: none;
+  }
+  html body main #mobile-only {
+    display: block;
+  }
+  html body main .reha, html body main .physio {
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+  }
+  html body main .reha img, html body main .physio img {
+    margin: 1rem 0 0 1rem;
+  }
+  html body main .reha {
+    margin: 20px 0;
+    background-image: url(/Assets/Bildmaterial/reha-bruck-startseite/conversory-reha-bruck-website-landing-header-frauen-knie-behandlung.jpg);
+  }
+  html body main .reha img {
+    max-width: 6.7rem;
+  }
+  html body main .physio {
+    background-image: url(/Assets/Bildmaterial/Physio-bruck-startseite/conversory-physio-bruck-website-landing-header-mann-schulter-therapie.jpg);
+    margin: 60px 0 20px 0;
+  }
+  html body main .physio img {
+    max-width: 8rem;
+  }
+  html body main .icons .icon {
+    margin: 0 10px 20px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

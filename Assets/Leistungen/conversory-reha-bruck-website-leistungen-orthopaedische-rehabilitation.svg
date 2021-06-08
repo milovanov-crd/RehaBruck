@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Pfad_134" data-name="Pfad 134" d="M0,69.187H60.49V-51.027H0Z" transform="translate(0 51.027)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_246" data-name="Gruppe 246" transform="translate(-435 -1913)">
+    <g id="Rechteck_11" data-name="Rechteck 11" transform="translate(435 1913)" fill="#56a732" stroke="#fff" stroke-width="10">
+      <rect width="270" height="270" stroke="none"/>
+      <rect x="5" y="5" width="260" height="260" fill="none"/>
+    </g>
+    <g id="Gruppe_136" data-name="Gruppe 136" transform="translate(539.511 1951.786)">
+      <g id="Gruppe_135" data-name="Gruppe 135" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="Gruppe_133" data-name="Gruppe 133" transform="translate(-0.001 0)">
+          <path id="Pfad_132" data-name="Pfad 132" d="M.422,36.148C-1.847,20.025,1.984,13.836,14.72,9.536,22.767,6.817,31.1,4.961,39.12,2.164c12.237-4.267,13.513-9.789,5.117-20.1-.792-.971-1.642-1.894-2.877-3.315,1.11-1.765,2.236-3.56,3.4-5.414,1.086.405,1.955.457,2.361.924,3.762,4.332,8.229,8.283,10.969,13.217C62.207-5.1,60.16,2.864,52.645,8.2c-4.712,3.343-4.636,6.344-3.4,11.306,5.9,23.639,1.43,46.381-7.4,68.371-.975,2.431-6.017,3.178-11.181,5.68,2.778-15.033,5.039-27.284,7.7-41.681C28.9,59.107,22.685,69.428,11.1,64.4,3.091,60.932,1.63,52.67-.311,44.578c2.349-.86,4.377-1.6,6.721-2.464,1,1.967,1.9,3.736,2.8,5.506,4.21,8.283,10.1,8.677,15.082.865,5.442-8.533,4.552-17.434.589-26.136-.615-1.348-3.529-2.516-5.2-2.306-6.321.787-11.106,3.767-13.523,10.394-.841,2.306-3.76,3.831-5.732,5.713" transform="translate(0.311 26.66)" fill="#fff"/>
+        </g>
+        <g id="Gruppe_134" data-name="Gruppe 134" transform="translate(15.51 9.288)">
+          <path id="Pfad_133" data-name="Pfad 133" d="M10.755,5.136c0,5.666-4.726,10.451-9.723,9.991-5.5-.507-8.6-3.944-8.95-9.426C-8.24.624-3.2-4.262,1.756-3.751c5.426.563,8.387,3.946,9,8.886" transform="translate(7.932 3.788)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <text id="Orthopädische_Rehabilitation" data-name="Orthopädische
+Rehabilitation" transform="translate(572 2108)" fill="#fff" font-size="24" font-family="Avenir-Heavy, Avenir" font-weight="800"><tspan x="-83.136" y="0">Orthopädische</tspan><tspan x="-77.832" y="30">Rehabilitation</tspan></text>
+  </g>
+</svg>
