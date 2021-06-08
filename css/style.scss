@@ -68,11 +68,12 @@ html
                             {
                                 .arrow
                                 {
+                                    /* width: 70px; */
                                     transition: $fast-in-out;
 
                                     &:hover
                                     {
-                                        width: 150px;
+                                        transform: scaleX(1.4)
                                     }
                                 }
                             }
