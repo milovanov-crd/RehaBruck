@@ -1,0 +1,39 @@
+@media #{$phone}
+{
+    html
+    {
+        #mobile-only, #mobile-only-menu
+        {
+            display: inline-block;
+        }
+
+        #pc-only
+        {
+            display: none;
+        }
+
+        body
+        {
+            #header
+            {
+                padding: 1.875rem 0;
+
+                .container
+                {
+                    width: 90%;
+
+                    .logo
+                    {
+                        width: 40%;
+                        display: inline-block;
+
+                        img
+                        {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

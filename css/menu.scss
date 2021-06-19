@@ -1,0 +1,132 @@
+@import "global";
+
+html
+{
+    #mobile-only, #mobile-only-menu
+    {
+        display: none;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: $gray;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    body
+    {
+        position: relative;
+
+        #header
+        {
+            width: 100%;
+            padding: 3.75rem 0;
+            position: fixed;
+            transition: $slow-in-out;
+
+            .container
+            {
+                display: flex;
+                width: 92%;
+                justify-content: space-between;
+                align-items: center;
+                margin: auto;
+
+                .nav
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                .options
+                {
+                    display: flex;
+                    width: 41%;
+                    justify-content: space-between;
+
+                    a
+                    {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+        main
+        {
+            background-color: rebeccapurple;
+            height: 2000px;
+        }
+
+        #modal
+        {
+            height: 100vh;
+            width: 100%;
+            padding-top: 1.975rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -3;
+            opacity: 0;
+            background-color: white;
+            transition: $slow-in-out;
+
+            .container
+            {
+                width: 90%;
+                margin: auto;
+
+                .top
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 6.25rem;
+
+                    .logo
+                    {
+                        width: 40%;
+                        display: inline-block;
+
+                        img
+                        {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .options
+                {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 10rem;
+
+                    #search
+                    {
+                        width: 31px;
+                        margin-bottom: 3.75rem;
+                    }
+
+                    a
+                    {
+                        font-weight: 600;
+                        font-size: 2.125rem;
+                        line-height: 2.5rem;
+                        margin-bottom: 1.25rem;
+                    }
+                }
+
+                .legal
+                {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+@import "menu-query";

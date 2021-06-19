@@ -1,22 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 //reset
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-//fonts
-@font-face
-{
-    font-family: Avenir-Heavy;
-    src: url(/Assets/Fonts/Metropolis-SemiBold.otf);
-}
-
-@font-face
-{
-    font-family: Avenir-Roman;
-    src: url(/Assets/Fonts/Metropolis-Regular.otf);
 }
 
 //colors
@@ -34,7 +24,8 @@ html
         {
             h1
             {
-                font-family: Avenir-Heavy;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
                 color: $gray;
                 font-size: 2.5rem;
                 margin-bottom: 1.9rem;
@@ -43,7 +34,7 @@ html
 
             p
             {
-                font-family: Avenir-Roman;
+                font-family: 'Montserrat', sans-serif;
                 color: $gray;
                 margin-bottom: 1.9rem;
                 line-height: 1.5rem;
@@ -51,7 +42,8 @@ html
 
             a
             {
-                font-family: Avenir-Heavy;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
                 color: $gray;
                 text-decoration: none;
 
