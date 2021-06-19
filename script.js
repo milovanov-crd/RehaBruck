@@ -25,7 +25,7 @@ function changeHeader()
 
     if (scroll > 150)
     {
-        header.style.backgroundColor = 'white';
+        header.style.backgroundColor = 'white'; //ovde umesto white staviš $gray ili koji god kod boje već da želiš
         header.style.padding = '1.875rem 0';
     }
         else
