@@ -110,7 +110,7 @@ html body #modal {
   height: 100vh;
   width: 100%;
   padding-top: 1.975rem;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -3;

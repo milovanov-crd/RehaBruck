@@ -22,15 +22,30 @@ function hideMenu()
 function changeHeader()
 {
     var scroll = this.scrollY;
+    var screenWidth = window.innerWidth;
 
-    if (scroll > 150)
+    if (screenWidth > 1200)
     {
-        header.style.backgroundColor = 'white'; //ovde umesto white staviš $gray ili koji god kod boje već da želiš
-        header.style.padding = '1.875rem 0';
+        if (scroll > 150)
+        {
+            header.style.backgroundColor = '#ffff'; //ovde umesto white staviš $gray ili koji god kod boje već da želiš
+            header.style.padding = '1.875rem 0';
+        }
+            else
+            {
+                header.style.backgroundColor = 'transparent';
+                header.style.padding = '3.75rem 0';
+            }
     }
         else
         {
-            header.style.backgroundColor = 'transparent';
-            header.style.padding = '3.75rem 0';
+            if (scroll > 150)
+            {
+                header.style.backgroundColor = '#ffff'; //ovde umesto white staviš $gray ili koji god kod boje već da želiš
+            }
+                else
+                {
+                    header.style.backgroundColor = 'transparent';
+                }
         }
 }
